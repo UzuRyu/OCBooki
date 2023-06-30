@@ -16,6 +16,7 @@
 body {
     display: flex;
     justify-content: center;
+    margin-top: 0em;
 }
 
 .main-container {
@@ -51,6 +52,55 @@ body {
 
 .neutralStar {
     color: var(--main-bg-color)
+}
+
+/* Lou */
+/*
+nav {
+    display: flex;
+    color: var(--main-bg-color);
+    flex-direction: row;
+}
+*/
+ul {
+    list-style-type: none;
+}
+
+/****** Header ***********/
+.header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1em;
+    width: auto;
+    height: 79px;
+}
+
+.topnav {
+    display: flex;
+    gap: 68px;
+    margin-top: 0em;
+    padding: 0 50px 0 50px;
+    color: var(--main-bg-color);
+    height: 35px;
+}
+
+.buttonnav {
+    font-size: 16px;
+    display: inline-block;
+    background-color: white;
+    border: none;
+    padding-top: 10px;
+}
+
+.buttonnav:hover {
+    border-top: 2px solid var(--main-color) !important;
+    color: var(--main-color);
+    padding-top: 8px;
+}
+
+#logo {
+    margin-top: auto;
+    padding: 30px;
 }
 
 /****** Hebergements And Populaires ***********/
