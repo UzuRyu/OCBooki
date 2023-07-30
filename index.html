@@ -10,7 +10,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
         integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
+        crossorigin="anonymous" referrerpolicy="no-referrer">
     <link rel="stylesheet" href="./css/style.css">
 </head>
 
@@ -18,36 +18,36 @@
     <div class="main-container">
         <header>
             <div class="header">
-                <img src="./images/logo/Booki.png" width="61px" height="19" id="logo">
-                <nav class="topnav">
-                    <a type="button" class="buttonnav" href="#hebergements">Hébergements</a>
-                    <a type="button" class="buttonnav" href="#activités">Activités</a>
+                <img src="./images/logo/Booki.png" id="logo" alt="Logo de Booki">
+                <nav id="topnav">
+                    <a type="button/example" class="buttonnav" href="#hebergements">Hébergements</a>
+                    <a type="button/example" class="buttonnav" href="#activités">Activités</a>
                 </nav>
             </div>
         </header>
         <main>
-            <div class="InfoGroupe">
-                <div class="slog">
+            <div id="InfoGroupe">
+                <div id="slogan">
                     <h1>Trouver votre hébergement pour des vacances de rêve</h1>
                     <p>En plein centre-ville ou en pleine nature</p>
                 </div>
-                <form class="recherche">
-                    <div id="box">
+                <form id="recherche">
+                    <div id="box-marqueur">
                         <i class="fa-solid fa-location-dot"></i>
                     </div>
-                    <input type="text" id="search" value="Marseille, France">
-                    <button type="submit" id="searchbutton"><i class="fa-solid fa-magnifying-glass"></i><p>Rechercher</p></button>
+                    <input type="text" id="search" placeholder="Marseille, France">
+                    <button type="submit" id="searchbutton"><i class="fa-solid fa-magnifying-glass"></i><span id="searchbutton-txt">Rechercher</span></button>
                 </form>
-                <div class="filtres">
-                    <p class="filtertext">Filtres</p>
-                    <div class="filterbutt">
+                <div id="filters">
+                    <p id="filtertext">Filtres</p>
+                    <div id="filterbutt">
                         <button type="button"><i class="fa-solid fa-money-bill-wave"></i>Économique</button>
                         <button type="button"><i class="fa-solid fa-person"></i>Familial</button>
                         <button type="button"><i class="fa-solid fa-heart"></i>Romantique</button>
                         <button type="button"><i class="fa-solid fa-fire"></i>Nos Pépites</button>
                     </div>
                 </div>
-                <div class="disclaimer">
+                <div id="disclaimer">
                     <i class="fa-solid fa-info"></i>
                     <p class="info">Plus de 500 logements sont disponibles dans cette ville</p>
                 </div>
@@ -179,7 +179,7 @@
                     </div>
                     <h3>Afficher plus</h3>
                 </section>
-                <section class="populaires">
+                <section id="populaires">
                     <div class="populaires-title">
                         <h2 class="section-title">Les plus populaires</h2>
                         <i class="fa-solid fa-chart-line" aria-hidden="true"></i>
